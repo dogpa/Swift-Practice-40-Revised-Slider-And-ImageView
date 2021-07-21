@@ -13,6 +13,8 @@
 		5DADD0E326A7EE15008B3190 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DADD0E126A7EE15008B3190 /* Main.storyboard */; };
 		5DADD0E526A7EE19008B3190 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DADD0E426A7EE19008B3190 /* Assets.xcassets */; };
 		5DADD0E826A7EE19008B3190 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DADD0E626A7EE19008B3190 /* LaunchScreen.storyboard */; };
+		5DADD0F026A8017D008B3190 /* pikaroar.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5DADD0EF26A8017D008B3190 /* pikaroar.mp3 */; };
+		5DADD0F226A8018B008B3190 /* battle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5DADD0F126A8018B008B3190 /* battle.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		5DADD0E426A7EE19008B3190 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5DADD0E726A7EE19008B3190 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5DADD0E926A7EE19008B3190 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DADD0EF26A8017D008B3190 /* pikaroar.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pikaroar.mp3; sourceTree = "<group>"; };
+		5DADD0F126A8018B008B3190 /* battle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = battle.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 		5DADD0DA26A7EE15008B3190 /* Swift Practice # 40 Slider And ImageView */ = {
 			isa = PBXGroup;
 			children = (
+				5DADD0F126A8018B008B3190 /* battle.mp3 */,
+				5DADD0EF26A8017D008B3190 /* pikaroar.mp3 */,
 				5DADD0DB26A7EE15008B3190 /* AppDelegate.swift */,
 				5DADD0DD26A7EE15008B3190 /* SceneDelegate.swift */,
 				5DADD0DF26A7EE15008B3190 /* ViewController.swift */,
@@ -127,6 +133,8 @@
 				5DADD0E826A7EE19008B3190 /* LaunchScreen.storyboard in Resources */,
 				5DADD0E526A7EE19008B3190 /* Assets.xcassets in Resources */,
 				5DADD0E326A7EE15008B3190 /* Main.storyboard in Resources */,
+				5DADD0F226A8018B008B3190 /* battle.mp3 in Resources */,
+				5DADD0F026A8017D008B3190 /* pikaroar.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
