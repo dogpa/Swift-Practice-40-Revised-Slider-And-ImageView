@@ -52,10 +52,6 @@
                                 <rect key="frame" x="373" y="132" width="150" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eRT-j9-ubY">
-                                <rect key="frame" x="163" y="63" width="49" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </switch>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.94421178102493286" green="0.97249776124954224" blue="0.98498910665512085" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -64,7 +60,6 @@
                         <outlet property="ballImageView" destination="Ncc-Hw-NqS" id="PbK-rL-tpm"/>
                         <outlet property="changDistantSlider" destination="vXl-bJ-e8L" id="dej-Ti-pz7"/>
                         <outlet property="chiImageView" destination="F90-9F-UQk" id="QHN-f2-v1s"/>
-                        <outlet property="musicTurnOnSwitch" destination="eRT-j9-ubY" id="d05-pN-zjM"/>
                         <outlet property="pikaImageView" destination="hyh-qQ-ekM" id="pB8-Oq-4m9"/>
                     </connections>
                 </viewController>

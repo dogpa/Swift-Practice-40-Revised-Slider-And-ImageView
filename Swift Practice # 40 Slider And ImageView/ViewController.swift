@@ -22,7 +22,7 @@ class ViewController: UIViewController {
     //皮卡丘的UIImageView
     @IBOutlet weak var pikaImageView: UIImageView!
 
-    @IBOutlet weak var musicTurnOnSwitch: UISwitch!
+
     
     
 
@@ -43,14 +43,28 @@ class ViewController: UIViewController {
         pikaImageView.alpha = CGFloat(1.2-(distant/330))
         
         
-        if distant == 330 {
+        if distant > 329 {
+            if musicPlayer.rate != 0 {
             let startMusic = Bundle.main.url(forResource: "pikaroar", withExtension: ".mp3")!
             let playMusic = AVPlayerItem(url: startMusic)
             musicPlayer.replaceCurrentItem(with: playMusic)
             musicPlayer.play()
             chiImageView.alpha = 1
+            } else if musicPlayer.rate == 0{
+                
+            }
         }
         
+        if sender.value > 0 || sender.value < 330 {
+            if musicPlayer.rate == 0{
+                let startMusic = Bundle.main.url(forResource: "battle", withExtension: ".mp3")!
+                let playMusic = AVPlayerItem(url: startMusic)
+                musicPlayer.replaceCurrentItem(with: playMusic)
+                musicPlayer.play()
+            }
+        }
+        
+        /*
         if musicTurnOnSwitch.isOn == true {
             let startMusic = Bundle.main.url(forResource: "battle", withExtension: ".mp3")!
             let playMusic = AVPlayerItem(url: startMusic)
@@ -65,6 +79,8 @@ class ViewController: UIViewController {
                 musicTurnOnSwitch.isOn = true
             }
         }
+        */
+        
         }
     }
     
